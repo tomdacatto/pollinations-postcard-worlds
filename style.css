@@ -75,3 +75,6 @@ input { width: 100%; font: inherit; color: var(--text); background: var(--panel)
 
 .error { background: #3d1c1a; border: 1px solid #ff8066; color: #ffddd5; padding: 10px 14px; border-radius: 12px; margin-bottom: 12px; }
 @media (prefers-reduced-motion: reduce) { .spinner, .spot .dot { animation: none; } }
+
+.powered { max-width: 860px; margin: 0 auto; padding: 0 16px 28px; color: var(--muted); font-size: .8rem; text-align: center; }
+.powered a { color: inherit; }
